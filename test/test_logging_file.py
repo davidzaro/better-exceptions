@@ -2,7 +2,10 @@ from __future__ import absolute_import
 
 import logging
 import os
+import sys
 import tempfile
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import better_exceptions
 
